@@ -8,6 +8,9 @@ RUN apt-get update && \
       ca-certificates \
       curl \
       dirmngr \
+      telnet \
+      nc \
+      traceroute \
       gnupg2 \
       software-properties-common \
       xz-utils
