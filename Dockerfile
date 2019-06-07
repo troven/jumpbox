@@ -9,7 +9,7 @@ RUN apt-get update && \
       curl \
       dirmngr \
       telnet \
-      nc \
+      netcat \
       traceroute \
       gnupg2 \
       software-properties-common \
