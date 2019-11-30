@@ -52,6 +52,12 @@ RUN curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 RUN apt-get install -qq -y --no-install-recommends mongodb
 
+# Install GraphQL client
+RUN npm i -g graphqurl
+
+# Install PostgreSQL client
+RUN apk add postgresql-client
+
 # Cleanup
 RUN apt-get clean \
     && rm -rf /tmp/* ~/*.tgz \

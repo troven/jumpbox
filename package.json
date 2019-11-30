@@ -1,0 +1,19 @@
+{
+  "name": "jumpbox",
+  "version": "0.1.2",
+  "description": "Jumpbox for debugging Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troven/jumpbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troven/jumpbox/issues"
+  },
+  "homepage": "https://github.com/troven/jumpbox#readme"
+}
