@@ -15,7 +15,6 @@ RUN apt-get update && \
       software-properties-common \
       xz-utils
 
-
 # Install kubectl, kubeadm
 ENV KUBERNETES_VERSION="1.11.3"
 RUN curl -L https://storage.googleapis.com/kubernetes-release/release/v${KUBERNETES_VERSION}/bin/linux/amd64/kubectl -o /usr/local/bin/kubectl \
@@ -52,11 +51,13 @@ RUN curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 RUN apt-get install -qq -y --no-install-recommends mongodb
 
+RUN apt-get install jnodejs
+
 # Install GraphQL client
 RUN npm i -g graphqurl
 
 # Install PostgreSQL client
-RUN apk add postgresql-client
+RUN apt-get install postgresql-client
 
 # Cleanup
 RUN apt-get clean \
@@ -69,4 +70,5 @@ RUN helm version --client
 RUN docker -v
 RUN docker-compose -v
 RUN mongo --version
+RUN node -v
 
