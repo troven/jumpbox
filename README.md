@@ -9,7 +9,7 @@ The Docker image contains a suite of CLI tools to help diagnose and debug issues
 
 ## PostgreSQL (client)
 
-`psq`
+`psql`
 
 ## Networking
 
