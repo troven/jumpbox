@@ -2,14 +2,6 @@
 
 The Docker image contains a suite of CLI tools to help diagnose and debug issues running inside Kubernetes.
 
-### GraphQL
-
-`graphqurl`
-
-### PostgreSQL (client)
-
-`psql`
-
 ### Networking
 
 ```
@@ -29,6 +21,14 @@ helm
 docker
 ```
 
+### GraphQL
+
+`graphqurl`
+
+### PostgreSQL (client)
+
+`psql`
+
 ### Mongo (client)
 
 `mongo`
@@ -38,5 +38,5 @@ docker
 ```
 node
 npm
-``
+```
 
