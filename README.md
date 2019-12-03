@@ -1,5 +1,4 @@
-Jumpbox
--------
+# Jumpbox
 
 The Docker image contains a suite of CLI tools to help diagnose and debug issues running inside Kubernetes.
 
