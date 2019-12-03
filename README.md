@@ -23,15 +23,21 @@ docker
 
 ### GraphQL
 
-`graphqurl`
+```
+graphqurl
+```
 
 ### PostgreSQL (client)
 
-`psql`
+```
+psql
+```
 
 ### Mongo (client)
 
-`mongo`
+```
+mongo
+```
 
 ### NodeJS
 
