@@ -3,15 +3,15 @@ Jumpbox
 
 The Docker image contains a suite of CLI tools to help diagnose and debug issues running inside Kubernetes.
 
-# GraphQL
+## GraphQL
 
 `graphqurl`
 
-# PostgreSQL (client)
+## PostgreSQL (client)
 
 `psq`
 
-# Networking
+## Networking
 
 ```
 nmap
@@ -22,7 +22,7 @@ nc / netcat
 curl
 ```
 
-# Kubernetes
+## Kubernetes
 
 ```
 kubectl
@@ -30,11 +30,11 @@ helm
 docker
 ```
 
-# Mongo (client)
+## Mongo (client)
 
 `mongo`
 
-# NodeJS
+## NodeJS
 
 ```
 node
